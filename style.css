@@ -2,3 +2,12 @@ section {
     width:100%;
     background-color:navy
 }
+ body {
+    background-image: url(mikasa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: .7cm; 
+     text-align: center;
+    color: black;
+    
+    
