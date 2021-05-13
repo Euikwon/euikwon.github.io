@@ -1,13 +1,92 @@
-section {
+ h1 {
     width:100%;
-    background-color:navy
-}
- body {
-    background-image: url(mikasa.jpg);
+    background-color:navy;
+font-size: 1.3cm;
+     text-align: center;}
+
+
+ 
+body {
+
     background-repeat: no-repeat;
     background-size: cover;
-    font-size: .7cm; 
-     text-align: center;
+font-size: .7cm;
     color: black;
+}
+
+.bg-index {
+    background-image: url(mikasa.jpg);
+text-align: center;    
+font-size: .7cm;    
+}
+
+.fs-rotations {
+    font-size: .53cm;
+}
+
+
+.firstimage {
+    float: right;  
+        position: relative;
+    right: 100px;
+    top: 50px; 
+}
+
+.secondimage {
+    float:right;
+    position: relative;
+    top:350px;
+    left: 300px;
     
+} 
+
+.thirdimage {
+    float:right;
+    position: relative;
+    right: 10px;
+    top: 30px;
     
+}
+
+    <style>
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #FBB84b;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+    box-sizing: border-box;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color: #789;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+h1 {
+    margin-bottom: 0px;
+}
+
+
